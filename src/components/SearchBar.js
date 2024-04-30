@@ -1,3 +1,5 @@
+import '../App.css'
+
 function SearchBar({ handleClick, handleChange, searchTerm }) {
   console.log(searchTerm);
   return (
