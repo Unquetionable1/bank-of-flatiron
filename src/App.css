@@ -17,6 +17,7 @@ body {
 }
 
 .search {
+  width: 80%;
   border: none;
 }
 .search:focus {
