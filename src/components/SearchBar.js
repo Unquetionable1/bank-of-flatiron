@@ -6,7 +6,7 @@ function SearchBar({ handleClick, handleChange, searchTerm }) {
         <input
           className="search"
           value={searchTerm}
-          placeholder="Search ....."
+          placeholder="Search your Recent Transactions"
           onChange={handleChange}
         />
         <i id="search" className="bx bx-search" onClick={handleClick}></i>
