@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bank-of-flatiron/static/css/main.2c148a47.css",
-    "main.js": "/bank-of-flatiron/static/js/main.f9e46b96.js",
+    "main.css": "/bank-of-flatiron/static/css/main.f3a47fe7.css",
+    "main.js": "/bank-of-flatiron/static/js/main.8c2667d5.js",
     "static/js/453.d3943c81.chunk.js": "/bank-of-flatiron/static/js/453.d3943c81.chunk.js",
     "static/media/boxicons.svg": "/bank-of-flatiron/static/media/boxicons.9e2b21b135bc7d4c803f.svg",
     "static/media/boxicons.eot": "/bank-of-flatiron/static/media/boxicons.65a8ce52fc5427e8f94d.eot",
@@ -9,12 +9,12 @@
     "static/media/boxicons.ttf": "/bank-of-flatiron/static/media/boxicons.db9ddb1898dbd76badca.ttf",
     "static/media/boxicons.woff2": "/bank-of-flatiron/static/media/boxicons.df635aaf04cd75132f62.woff2",
     "index.html": "/bank-of-flatiron/index.html",
-    "main.2c148a47.css.map": "/bank-of-flatiron/static/css/main.2c148a47.css.map",
-    "main.f9e46b96.js.map": "/bank-of-flatiron/static/js/main.f9e46b96.js.map",
+    "main.f3a47fe7.css.map": "/bank-of-flatiron/static/css/main.f3a47fe7.css.map",
+    "main.8c2667d5.js.map": "/bank-of-flatiron/static/js/main.8c2667d5.js.map",
     "453.d3943c81.chunk.js.map": "/bank-of-flatiron/static/js/453.d3943c81.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c148a47.css",
-    "static/js/main.f9e46b96.js"
+    "static/css/main.f3a47fe7.css",
+    "static/js/main.8c2667d5.js"
   ]
 }
