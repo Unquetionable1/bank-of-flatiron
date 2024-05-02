@@ -3,6 +3,8 @@ import SearchBar from "./SearchBar";
 import Table from "./Table";
 import TransactionForm from "./TransactionForm";
 
+
+//the transaction component
 function Form() {
   const [transactions, setTransactions] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
@@ -11,8 +13,8 @@ function Form() {
     setTransactions([...transactions, newTransaction]);
   };
 
-  const result = () =>
-    transactions.filter((transaction) => {
+  const result = transactions.filter((transaction) => {
+      if(searchTerm==='')return true
       return transaction.description
         .toLowerCase()
         .includes(searchTerm.toLocaleLowerCase());
@@ -27,7 +29,7 @@ function Form() {
   };
   return (
     <div>
-      <div className="search">
+      <div>
         <SearchBar
           searchTerm={searchTerm}
           handleClick={handleClick}
@@ -39,7 +41,7 @@ function Form() {
       </div>
 
       <div className="table">
-        <Table transactions={transactions} />
+      <Table result={result} />
       </div>
     </div>
   );

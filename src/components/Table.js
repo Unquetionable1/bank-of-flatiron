@@ -1,6 +1,6 @@
 import React from "react";
 
-const Table = ({ transactions }) => {
+const Table = ({ result }) => {
   return (
     <div className="table">
       <table>
@@ -13,7 +13,7 @@ const Table = ({ transactions }) => {
           </tr>
         </thead>
         <tbody>
-          {transactions.map((transaction, index) => {
+          {result.map((transaction, index) => {
             return <tr key={index}>
                 <td>{transaction.date}</td>
                 <td>{transaction.description}</td>
